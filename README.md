@@ -16,12 +16,12 @@ This project will help you develop proficiency with:
 ## 📂 Repository Structure
 
 ```
-ansible-practice/
+ansible-class/
 ├── 03_playbooks/
 │   └── 05_summary_practice/  # Primary working directory containing:
 │       ├── playbook.yaml     # Main Ansible playbook
 │       ├── inventory/        # Target system definitions
-│       └── files/            # Supporting scripts and configurations
+│       └── script/            # Supporting scripts and configurations
 └── 99_misc/
     └── setup/                # Environment bootstrapping resources
 ```
