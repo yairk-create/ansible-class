@@ -72,4 +72,4 @@ docker exec docker-ansible-host-1 ansible all -m ping
 
 ## 📝 License
 
-This project is distributed under the MIT License. See the LICENSE file for detailed terms and conditions.
+This project is distributed under the MIT License. See the [LICENSE](https://github.com/yairk-create/ansible-class/blob/main/LICENSE) file for detailed terms and conditions.
