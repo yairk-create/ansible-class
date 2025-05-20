@@ -17,14 +17,21 @@ This project will help you develop proficiency with:
 
 ```
 ansible-class/
-├── 03_playbooks/
-│   └── 05_summary_practice/  # Primary working directory containing:
-│       ├── playbook.yaml     # Main Ansible playbook
-│       ├── inventory/        # Target system definitions
-│       └── script/            # Supporting scripts and configurations
-└── 99_misc/
-    └── setup/                # Environment bootstrapping resources
+├── 05_summary_practice # Primary working directory containing:
+│   ├── ansible.cfg
+│   ├── hello.sh
+│   ├── hosts.ini
+│   ├── playbook.yaml # Main Ansible playbook
+│   └── script # Supporting scripts and configurations
+│       └── set.sh
+├── LICENSE
+├── README.md
+└── Task.md
 ```
+
+
+
+
 
 The primary learning materials are located in the `05_summary_practice` directory, where you'll find comprehensive examples illustrating Ansible's capabilities.
 
