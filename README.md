@@ -48,7 +48,8 @@ git clone https://github.com/yair-create/ansible-practice.git
 cd ansible-practice/05_summary_practice/files
 
 # Initialize the containerized lab environment
-bash set.sh
+cd ./ansible-practice/05_summary_practice/script/ ; bash ./start.sh
+
 ```
 
 Upon successful execution, you'll have a fully functioning Ansible control node with target systems ready for configuration management exercises.
