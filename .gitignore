@@ -1,0 +1,5 @@
+*.swp
+.vscode/
+*.retry
+__pycache__/
+ansible-practice.tar.gz
