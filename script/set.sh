@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 ############################################################ /ᐠ｡ꞈ｡ᐟ\############################################################
-#Developed by: Tal Mendelson
+#Developed by: Yair Kochavi
 #Purpose: Script to demonstrate Ansible's copy and shell module usage per ansible playbook practice task - Ansible Shallow Dive
 #         from https://gitlab.com/vaiolabs-io/ansible-shallow-dive
-#Date:17/05/2025
-#Version: 0.0.1
+#Date:19/05/2025
+#Version: 1.6.1
 ############################################################ /ᐠ｡ꞈ｡ᐟ\ ############################################################
 
 # Set Bash safety options to prevent errors from cascading
@@ -62,7 +62,7 @@ function download_with_curl() {
         echo "Failed to extract archive."
         exit 1
     fi
-    
+
     mv ansible-shallow-dive-main ansible-shallow-dive
     
     # Remove unneeded .gz file after extracting
